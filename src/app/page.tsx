@@ -13,7 +13,7 @@ export default function HomePage() {
 
 
       <h1 className=" pageh1 text-shadow-1xs text-4xl md:text-5xl font-extrabold text-white mb-4 mt-5 leading-tight">
-        Faça seu <span className='text-[#0edb59]'>Primeiro Milhão</span>
+        Faça o seu <span className='text-[#0edb59]'>Primeiro Milhão</span>
       </h1>
 
 

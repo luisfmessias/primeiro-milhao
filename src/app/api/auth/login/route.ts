@@ -23,13 +23,12 @@ export async function POST(req: Request) {
       expiresIn: "1d",
     })
 
-    // 🔥 define o cookie no servidor
     const res = NextResponse.json({ message: "Login realizado com sucesso" })
     res.cookies.set("token", token, {
       httpOnly: true,
-      secure: false, // sempre falso em dev/local
+      secure: false, 
       path: "/",
-      maxAge: 60 * 60 * 24, // 1 dia
+      maxAge: 60 * 60 * 24, 
     })
 
 

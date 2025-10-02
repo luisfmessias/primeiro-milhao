@@ -1,11 +1,11 @@
-# 💰 Calculadora do Primeiro Milhão
+# Calculadora do Primeiro Milhão
 
-Sistema fullstack desenvolvido como desafio técnico para vaga de **Dev Full Stack Jr**.  
+Sistema fullstack .  
 A aplicação simula investimentos até atingir **R$ 1.000.000,00** utilizando aportes mensais e juros compostos.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Frontend:** [Next.js 13+](https://nextjs.org/) (App Router) + [TypeScript](https://www.typescriptlang.org/) + [Tailwind CSS](https://tailwindcss.com/)  
 - **Backend/API:** Node.js + TypeScript (API Routes do Next.js ou Express/Nest)  
 - **Banco de Dados/ORM:** [PostgreSQL](https://www.postgresql.org/) (ou SQLite para testes) + [Prisma ORM](https://www.prisma.io/)  

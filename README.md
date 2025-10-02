@@ -28,6 +28,7 @@ npm install
 Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
 
 DATABASE_URL="file:./dev.db"
+JWT_SECRET=segredo_super_forte
 
 ## 4. Preparar o banco de dados
 

@@ -17,7 +17,7 @@ export default function HistoricoPage() {
     const res = await fetch("/api/calculos/list", { cache: "no-store" })
     if (res.ok) {
       const data = await res.json()
-      setCalculos(Array.isArray(data) ? data : []) // 🔥 evita erro
+      setCalculos(Array.isArray(data) ? data : []) 
     }
   }
 
@@ -28,7 +28,7 @@ export default function HistoricoPage() {
   const handleDelete = async (id: number) => {
     const res = await fetch(`/api/calculos/${id}`, { method: "DELETE" })
     if (res.ok) {
-      setCalculos((prev) => prev.filter((c) => c.id !== id)) // 🔥 remove da tela
+      setCalculos((prev) => prev.filter((c) => c.id !== id)) 
     }
   }
 

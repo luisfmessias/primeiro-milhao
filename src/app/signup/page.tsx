@@ -24,7 +24,6 @@ export default function SignupPage() {
       })
 
       if (res.ok) {
-        // ✅ cookie já é setado no backend
         router.push("/calculadora")
       } else {
         const data = await res.json()

@@ -6,7 +6,7 @@ export async function POST() {
     httpOnly: true,
     secure: false,
     path: "/",
-    maxAge: 0, // expira imediatamente
+    maxAge: 0, 
   })
   return res
 }

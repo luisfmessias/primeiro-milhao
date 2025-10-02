@@ -48,7 +48,7 @@ export async function POST(req: Request) {
       secure: false, // sempre falso em dev/local
 
       path: "/",
-      maxAge: 60 * 60 * 24, // 1 dia
+      maxAge: 60 * 60 * 24, 
     })
 
     return res

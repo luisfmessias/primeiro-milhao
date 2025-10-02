@@ -16,7 +16,7 @@ A aplicação simula investimentos até atingir **R$ 1.000.000,00** utilizando a
 
 ### 1. Clonar o repositório
 
-git clone https://github.com/seu-usuario/primeiro-milhao.git
+git clone https://github.com/luisfmessias/primeiro-milhao.git
 cd primeiro-milhao
 
 ## 2. Instalar dependências

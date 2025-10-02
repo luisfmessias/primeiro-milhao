@@ -1,0 +1,34 @@
+/* sacre_ai_gerado */
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           Int    @id @default(autoincrement())
+  email        String @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  calculations Calculation[]
+}
+
+
+model Calculation {
+  id                  Int      @id @default(autoincrement())
+  userId              Int
+  user                User     @relation(fields: [userId], references: [id])
+  createdAt           DateTime @default(now())
+  initialContribution Float
+  monthlyContribution Float
+  monthlyRate         Float
+  monthsToGoal        Int
+  title               String   @default("Simulação sem nome")
+}
+
+

@@ -1,26 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bola {
+  width: 20%;
+  height: 50%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 1000px 400px #00ff9d6b;
+  filter: blur(100px);
+  z-index: -2;
+  animation: pulse 10s infinite alternate;
+
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.7;
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.pageh1 {
+  transition:  1s ease-in-out; /* Define a transição: opacidade, 1 segundo, função de tempo */
+}
+
+.img{
+  scale: 1.5;
+  margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+
+  .logo{
+    display: none;
+  }
+
+  .login,.cadastrese,.calc{
+    display: none;
+  }
+
+  .gotohis{
+    width: 330px;
+    margin-left: 0px;
+  }
 }

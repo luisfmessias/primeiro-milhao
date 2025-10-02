@@ -70,5 +70,7 @@ npm run dev
 Acesse a aplicação em [http://localhost:3000](http://localhost:3000)
 
 Digite:
-npx prisma studio 
+```
+npx prisma studio
+```
 Para abrir o banco de dados no navegadror.

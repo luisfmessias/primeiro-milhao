@@ -24,7 +24,7 @@ cd primeiro-milhao
 
 npm install
 
-3. Configurar variáveis de ambiente
+## 3. Configurar variáveis de ambiente
 Na **raiz do projeto** (mesmo nível de package.json), crie um arquivo chamado **.env** com o conteúdo abaixo:
 
 DATABASE_URL="file:./dev.db"

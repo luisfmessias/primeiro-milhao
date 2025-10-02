@@ -24,13 +24,12 @@ cd primeiro-milhao
 
 npm install
 
-## 3. Configurar variáveis de ambiente
-
-Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
+3. Configurar variáveis de ambiente
+Na **raiz do projeto** (mesmo nível de package.json), crie um arquivo chamado **.env** com o conteúdo abaixo:
 
 DATABASE_URL="file:./dev.db"
 
-JWT_SECRET=segredo_super_forte
+JWT_SECRET="segredo_super_forte"
 
 ## 4. Preparar o banco de dados
 

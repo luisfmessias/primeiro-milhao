@@ -29,7 +29,7 @@ Na **raiz do projeto** (mesmo nível de package.json), crie um arquivo chamado *
 
 DATABASE_URL="file:./dev.db"
 
-JWT_SECRET="segredo_super_forte"
+JWT_SECRET=segredo_super_forte
 
 ## 4. Preparar o banco de dados
 

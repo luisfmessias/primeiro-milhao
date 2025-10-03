@@ -43,7 +43,7 @@ npm install
 
 **Antes de rodar qualquer comando do Prisma, crie o arquivo `.env` na raiz do projeto (mesmo nivel do package.json, etc...).**
 
-Dentro do arquivo .env que você enviou, coloque:
+Dentro do arquivo .env que você criou, coloque:
 
 
 DATABASE_URL="file:./dev.db"
